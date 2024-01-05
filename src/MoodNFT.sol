@@ -11,6 +11,7 @@ contract MoodNFT is ERC721 {
     string private s_happySVGUri;
 
     error MoodNFT__NotAuthorizedCall();
+
     enum Mood {
         HAPPY,
         SAD
